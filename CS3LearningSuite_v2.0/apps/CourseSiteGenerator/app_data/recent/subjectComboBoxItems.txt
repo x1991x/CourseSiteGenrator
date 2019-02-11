@@ -1,0 +1,14 @@
+
+{
+    "subject":[
+        {
+            "item":"CSE"
+        },
+        {
+            "item":"MAT"
+        },
+        {
+            "item":"HIS"
+        }
+    ]
+}

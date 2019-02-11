@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file provides all the text to be used when the application
+    is to be displayed in English.
+-->
+<properties>
+    <property_list>
+
+        <!-- ENGLISH LANGUAGE SETTINGS FOR DESKTOP JAVA FRAMEWORK CONTROLS -->
+
+        <!-- WELCOME DIALOG TEXT -->
+        <property name="WELCOME_DIALOG_TITLE"               value="Welcome to Office Hours"></property>
+        <property name="WELCOME_DIALOG_RECENT_WORK_LABEL"   value="Recent Work"></property>
+        <property name="WELCOME_DIALOG_NEW_BUTTON_TEXT"  value="Create New Office Hours"></property>
+
+        <!-- GENERIC APP ERROR MESSAGES -->
+        <property name="APP_ERROR_TITLE"            value="Application Error"></property>
+        <property name="APP_ERROR_CONTENT"          value="An Error Occured in the Application"></property>
+
+        <!-- PROPERTIES ERROR MESSAGES -->
+        <property name="PROPERTIES_ERROR_TITLE"     value="Properties File Error"></property>
+        <property name="PROPERTIES_ERROR_CONTENT"   value="There was an Error Loading a Properties File"></property>
+
+        <!-- FILE TOOLBAR TOOLTIPS -->
+        <property name="NEW_BUTTON_TOOLTIP"         value="New Office Hours"></property>
+        <property name="LOAD_BUTTON_TOOLTIP"        value="Load Office Hours"></property>
+        <property name="CLOSE_BUTTON_TOOLTIP"       value="Close Office Hours"></property>
+        <property name="SAVE_BUTTON_TOOLTIP"        value="Save Office Hours"></property>
+        <property name="EXPORT_BUTTON_TOOLTIP"      value="Export Office Hours"></property>
+        <property name="EXIT_BUTTON_TOOLTIP"        value="Exit"></property>
+
+        <!-- CLIPBOARD TOOLBAR TOOLTIPS -->
+        <property name="CUT_BUTTON_TOOLTIP"         value="Cut"></property>
+        <property name="COPY_BUTTON_TOOLTIP"        value="Copy"></property>
+        <property name="PASTE_BUTTON_TOOLTIP"       value="Paste"></property>
+
+        <!-- UNDO TOOLBAR TOOLTIPS -->
+        <property name="UNDO_BUTTON_TOOLTIP"        value="Undo"></property>
+        <property name="REDO_BUTTON_TOOLTIP"        value="Redo"></property>
+
+        <!-- HELP TOOLBAR TOOLTIPS -->
+        <property name="HELP_BUTTON_TOOLTIP"        value="Help"></property>
+        <property name="LANGUAGE_BUTTON_TOOLTIP"    value="Change Langauge"></property>
+        <property name="ABOUT_BUTTON_TOOLTIP"       value="About"></property>
+
+        <!-- NEW FEEDBACK DIALOGS -->	
+        <property name="NEW_SUCCESS_TITLE"      value="New Complete"></property>
+        <property name="NEW_SUCCESS_CONTENT"	value="Work Created but not yet Saved"></property>
+        <property name="NEW_ERROR_TITLE"        value="Warning: Error"></property>
+        <property name="NEW_ERROR_CONTENT"      value="An error occured creating New work."></property>
+
+        <!-- LOAD FEEDBACK DIALOGS -->
+        <property name="LOAD_WORK_TITLE"        value="Load Work"></property>
+        <property name="LOAD_SUCCESS_TITLE"     value="Load Complete"></property>
+        <property name="LOAD_SUCCESS_CONTENT"   value="The File has Loaded Successfully and can now be edited."></property>
+        <property name="LOAD_ERROR_TITLE"       value="Loading Error"></property>        
+        <property name="LOAD_ERROR_CONTENT"     value="Loading has Failed. Likely there is a File Formating problem."></property>
+        <property name="LOAD_IMAGE_TITLE"        value="Load Image"></property>
+        <!-- SAVE FEEDBACK DIALOGS -->
+        <property name="SAVE_WORK_TITLE"        value="Save Work"></property>
+        <property name="SAVE_SUCCESS_TITLE"     value="Save Complete"></property>
+        <property name="SAVE_SUCCESS_CONTENT"   value="The file is saved."></property>
+        <property name="SAVE_ERROR_TITLE"       value="Save Error"></property>
+        <property name="SAVE_ERROR_CONTENT"     value="Saving has Failed. Likely due to a file access problem."></property>
+        <property name="SAVE_VERIFY_TITLE"	value="Save unsaved work?"></property>
+        <property name="SAVE_VERIFY_CONTENT"	value="Would you like to save your unsaved work first?"></property>
+
+        <!-- ABOUT DIALOG -->
+        <property name="ABOUT_TITLE"            value="About OH"></property>
+        <property name="ABOUT_CONTENT"          value="OH, the Office Hours Manager - Debugging Enterprises - © 2018"></property>
+
+
+        <!-- ENGLISH LANGUAGE SETTINGS SPECIFICALLY FOR TDLM CONTROLS -->
+
+        <!-- LANGUAGE-DEPENDENT TEXT FOR OH WORKSPACE CONTROLS -->
+        <property name="OH_TAS_HEADER_LABEL_TEXT"           value="Teaching Assistants"></property>
+        <property name="OH_ALL_RADIO_BUTTON_TEXT"                value="All"></property>
+        <property name="OH_GRAD_RADIO_BUTTON_TEXT"               value="Graduate"></property>
+        <property name="OH_UNDERGRAD_RADIO_BUTTON_TEXT"          value="Undergraduate"></property>
+        <property name="OH_NAME_TEXT_FIELD_PROMPT_TEXT"     value="Name"></property>
+        <property name="OH_EMAIL_TEXT_FIELD_PROMPT_TEXT"    value="Email"></property>
+        <property name="OH_ADD_TA_BUTTON_TEXT"              value="Add TA"></property>
+        <property name="OH_OFFICE_HOURS_HEADER_LABEL_TEXT"  value="Office Hours"></property>
+        <property name="OH_NAME_TABLE_COLUMN_TEXT"          value="Name"></property>
+        <property name="OH_EMAIL_TABLE_COLUMN_TEXT"         value="Email"></property>
+        <property name="OH_SLOTS_TABLE_COLUMN_TEXT"         value="Time Slots"></property>
+        <property name="OH_TYPE_TABLE_COLUMN_TEXT"          value="Type"></property>
+        <property name="OH_START_TIME_TABLE_COLUMN_TEXT"    value="Start Time"></property>
+        <property name="OH_END_TIME_TABLE_COLUMN_TEXT"      value="End Time"></property>
+        <property name="OH_MONDAY_TABLE_COLUMN_TEXT"        value="Monday"></property>
+        <property name="OH_TUESDAY_TABLE_COLUMN_TEXT"       value="Tuesday"></property>
+        <property name="OH_WEDNESDAY_TABLE_COLUMN_TEXT"     value="Wednesday"></property>
+        <property name="OH_THURSDAY_TABLE_COLUMN_TEXT"      value="Thursday"></property>
+        <property name="OH_FRIDAY_TABLE_COLUMN_TEXT"        value="Friday"></property>
+        
+        <!-- ERROR DIALOG -->
+        <property name="CSG_NO_TA_SELECTED_TITLE"        value="No TA Selected"></property>
+        <property name="CSG_NO_TA_SELECTED_CONTENT"      value="Toggle only possible if TA Selected"></property>
+        <property name="CSG_INVALID_DATE_TITLE"      value="Invalid Date"></property>
+        <property name="CSG_INVALID_DATE_CONTENT"      value="End date cannot be before start date"></property>
+        <!-- EDIT TA DIALOG -->
+        <property name="OH_TA_DIALOG_HEADER_LABEL_TEXT" value="Edit Teaching Assistant"></property>
+        <property name="OH_TA_DIALOG_NAME_LABEL_TEXT" value="Name: "></property>
+        <property name="OH_TA_DIALOG_EMAIL_LABEL_TEXT" value="Email: "></property>
+        <property name="OH_TA_DIALOG_TYPE_LABEL_TEXT" value="Type: "></property>
+        <property name="OH_TA_DIALOG_GRAD_RADIO_BUTTON_TEXT" value="Graduate"></property>
+        <property name="OH_TA_DIALOG_UNDERGRAD_RADIO_BUTTON_TEXT" value="Undergraduate"></property>
+        <property name="OH_TA_DIALOG_OK_BUTTON_TEXT" value="Ok"></property>
+        <property name="OH_TA_DIALOG_CANCEL_BUTTON_TEXT" value="Cancel"></property>
+
+        <!-- TO SWITCH BACK TO ANOTHER LANGUAGE -->
+        <property name="LANGUAGE_DIALOG_TITLE"          value="App Language Selection"></property>
+        <property name="LANGUAGE_DIALOG_HEADER_TEXT"    value="Choose a Language"></property>
+        <property name="LANGUAGE_DIALOG_CONTENT_TEXT"   value="Select a Language for the User Interface."></property>
+
+        <property name="WORK_FILE_EXT"          value="*.csg"></property>
+        <property name="WORK_FILE_EXT_DESC"     value="Course Site Generator Files"></property>
+        <property name="IMAGE_FILE_PNG_EXT"          value="*.png"></property>
+        <property name="IMAGE_FILE_JPG_EXT"          value="*.jpg"></property>
+        <property name="IMAGE_FILE_EXT_DESC"     value="Image Files"></property>
+        <property name="CSG_INVALID_FILE"     value="Invalid File"></property>
+        <property name="CSG_FAILED_TO_LOAD"     value="Failed to load"></property>
+        <property name="EXPORT_ERROR_TITLE"     value="Export error"></property>
+        <property name="EXPORT_ERROR_CONTENT"     value="Failed to export"></property>
+        <property name="NO_PAGE_SELECTED_TITLE"     value="No page is selected"></property>
+        <property name="NO_PAGE_SELECTED_CONTENT"     value="You have to select at least one check box"></property>
+         
+        <property name="CSG_SITE_BANNER_HEADER_LABEL_TEXT"          value="Banner"></property>
+        <property name="CSG_SITE_SUBJECT_LABEL_TEXT"          value="Subject:"></property>
+        <property name="CSG_SITE_NUMBER_LABEL_TEXT"          value="Number:"></property>
+        <property name="CSG_SITE_SEMESTER_LABEL_TEXT"          value="Semester:"></property>
+        <property name="CSG_SITE_YEAR_LABEL_TEXT"          value="Year:"></property>
+        <property name="CSG_SITE_TITLE_LABEL_TEXT"          value="Title:"></property>
+        <property name="CSG_SITE_SUBJECT_COMBO_BOX_PROMPT_TEXT"       value="Subject"></property>
+        <property name="CSG_SITE_NUMBER_COMBO_BOX_PROMPT_TEXT"       value="Number"></property>
+        <property name="CSG_SITE_SEMESTER_COMBO_BOX_PROMPT_TEXT"       value="Semester"></property>
+        <property name="CSG_SITE_YEAR_COMBO_BOX_PROMPT_TEXT"       value="Year"></property>
+        <property name="CSG_SITE_TITLE_TEXT_FIELD_PROMPT_TEXT"       value="Title"></property>
+        <property name="CSG_SITE_NAME_TEXT_FIELD_PROMPT_TEXT"       value="Name"></property>
+        <property name="CSG_SITE_ROOM_TEXT_FIELD_PROMPT_TEXT"       value="Room"></property>
+        <property name="CSG_SITE_EMAIL_TEXT_FIELD_PROMPT_TEXT"       value="Email address"></property>
+        <property name="CSG_SITE_HOME_PAGE_TEXT_FIELD_PROMPT_TEXT"       value="Home page"></property>
+        <property name="CSG_OFFICE_HOURS_NAME_TEXT_FIELD_PROMPT_TEXT"       value="Name"></property>
+        <property name="CSG_OFFICE_HOURS_EMAIL_TEXT_FIELD_PROMPT_TEXT"       value="Email address"></property>
+        <property name="CSG_SCHEDULE_TITLE_TEXT_FIELD_PROMPT_TEXT"       value="Title"></property>
+        <property name="CSG_SCHEDULE_TOPIC_TEXT_FIELD_PROMPT_TEXT"       value="Topic"></property>
+        <property name="CSG_SCHEDULE_LINK_TEXT_FIELD_PROMPT_TEXT"       value="Link"></property>
+        
+        <property name="CSG_SITE_EXPORT_DIR_LABEL_TEXT"          value="Export Dir:"></property>
+        <property name="CSG_SITE_PAGES_HEADER_LABEL_TEXT"          value="Pages"></property>
+        <property name="CSG_SITE_STYLE_HEADER_LABEL_TEXT"          value="Style"></property>
+        <property name="CSG_SITE_STYLE_SHEET_LABEL_TEXT"          value="Fonts and Colors Style Sheet:"></property>
+        <property name="CSG_SITE_NOTE_LABEL_TEXT"          value="Note: Stylesheets should be placed inside work/css to be selectable"></property>
+        <property name="CSG_SITE_INSTRUCTOR_HEADER_LABEL_TEXT"          value="Instructor"></property>
+        <property name="CSG_SITE_NAME_LABEL_TEXT"          value="Name:"></property>
+        <property name="CSG_SITE_ROOM_LABEL_TEXT"          value="Room:"></property>
+        <property name="CSG_SITE_EMAIL_LABEL_TEXT"          value="Email:"></property>
+        <property name="CSG_SITE_HOME_PAGE_LABEL_TEXT"          value="Home Page:"></property>
+        <property name="CSG_SITE_OFFICE_HOURS_LABEL_TEXT"          value="Office Hours"></property>
+        
+        <property name="CSG_SYLLABUS_DESCRIPTION_LABEL_TEXT"          value="Description:"></property>
+        <property name="CSG_SYLLABUS_TOPICS_LABEL_TEXT"          value="Topics:"></property>
+        <property name="CSG_SYLLABUS_PREREQUISITES_LABEL_TEXT"          value="Prerequisites:"></property>
+        <property name="CSG_SYLLABUS_OUTCOMES_LABEL_TEXT"          value="Outcomes:"></property>
+        <property name="CSG_SYLLABUS_TEXTBOOKS_LABEL_TEXT"          value="Textbooks:"></property>
+        <property name="CSG_SYLLABUS_GRADED_COMPONENTS_LABEL_TEXT"          value="Graded Components:"></property>
+        <property name="CSG_SYLLABUS_GRADING_NOTE_LABEL_TEXT"          value="Grading Note:"></property>
+        <property name="CSG_SYLLABUS_ACADEMIC_DISHONESTY_LABEL_TEXT"          value="Academic Dishonesty:"></property>
+        <property name="CSG_SYLLABUS_SPECIAL_ASSISTANCE_LABEL_TEXT"          value="Special Assistance:"></property>
+        <property name="CSG_MEETING_TIMES_LECTURES_HEADER_LABEL_TEXT"          value="Lectures"></property>
+        <property name="CSG_MEETING_TIMES_RECITATIONS_HEADER_LABEL_TEXT"          value="Recitations"></property>
+        <property name="CSG_MEETING_TIMES_LABS_HEADER_LABEL_TEXT"          value="Labs"></property>
+        <property name="CSG_OFFICE_HOURS_TAS_HEADER_LABEL_TEXT"          value="TAs"></property>
+        <property name="CSG_OFFICE_HOURS_HEADER_LABEL_TEXT"          value="Office Hours"></property>
+        <property name="CSG_OFFICE_HOURS_START_TIME_LABEL_TEXT"          value="Start Time:"></property>
+        <property name="CSG_OFFICE_HOURS_END_TIME_LABEL_TEXT"          value="End Time:"></property>
+        <property name="CSG_SCHEDULE_CALENDAR_HEADER_LABEL_TEXT"          value="Calendar Boundaries"></property>
+        <property name="CSG_SCHEDULE_CALENDAR_STARTING_MONDAY_LABEL_TEXT"          value="Starting Monday:"></property>
+        <property name="CSG_SCHEDULE_CALENDAR_ENDING_FRIDAY_LABEL_TEXT"          value="Ending Friday:"></property>
+        <property name="CSG_SCHEDULE_SCHEDULE_ITEMS_HEADER_LABEL_TEXT"          value="Schedule Items"></property>
+        <property name="CSG_SCHEDULE_ADD_SCHEDULE_HEADER_LABEL_TEXT"          value="Add/Edit"></property>
+        <property name="CSG_SCHEDULE_TYPE_LABEL_TEXT"          value="Type:"></property>
+        <property name="CSG_SCHEDULE_DATE_LABEL_TEXT"          value="Date:"></property>
+        <property name="CSG_SCHEDULE_TITLE_LABEL_TEXT"          value="Title:"></property>
+        <property name="CSG_SCHEDULE_TOPIC_LABEL_TEXT"          value="Topic:"></property>
+        <property name="CSG_SCHEDULE_LINK_LABEL_TEXT"          value="Link:"></property>
+        
+        <property name="CSG_MEETING_TIMES_LECTURES_SECTION_TABLE_COLUMN_TEXT"          value="Section"></property>
+        <property name="CSG_MEETING_TIMES_LECTURES_DAYS_TABLE_COLUMN_TEXT"          value="Days"></property>
+        <property name="CSG_MEETING_TIMES_LECTURES_TIME_TABLE_COLUMN_TEXT"          value="Time"></property>
+        <property name="CSG_MEETING_TIMES_LECTURES_ROOM_TABLE_COLUMN_TEXT"          value="Room"></property>
+        <property name="CSG_MEETING_TIMES_RECITATIONS_SECTION_TABLE_COLUMN_TEXT"          value="Section"></property>
+        <property name="CSG_MEETING_TIMES_RECITATIONS_DAYS_AND_TIME_TABLE_COLUMN_TEXT"          value="Days and Time"></property>
+        <property name="CSG_MEETING_TIMES_RECITATIONS_ROOM_TABLE_COLUMN_TEXT"          value="Room"></property>
+        <property name="CSG_MEETING_TIMES_RECITATIONS_TA1_TABLE_COLUMN_TEXT"          value="TA1"></property>
+        <property name="CSG_MEETING_TIMES_RECITATIONS_TA2_TABLE_COLUMN_TEXT"          value="TA2"></property>
+        <property name="CSG_MEETING_TIMES_LABS_SECTION_TABLE_COLUMN_TEXT"          value="Section"></property>
+        <property name="CSG_MEETING_TIMES_LABS_DAYS_AND_TIME_TABLE_COLUMN_TEXT"          value="Days and Time"></property>
+        <property name="CSG_MEETING_TIMES_LABS_ROOM_TABLE_COLUMN_TEXT"          value="Room"></property>
+        <property name="CSG_MEETING_TIMES_LABS_TA1_TABLE_COLUMN_TEXT"          value="TA1"></property>
+        <property name="CSG_MEETING_TIMES_LABS_TA2_TABLE_COLUMN_TEXT"          value="TA2"></property>
+        <property name="CSG_OFFICE_HOURS_NAME_TABLE_COLUMN_TEXT"          value="Name"></property>
+        <property name="CSG_OFFICE_HOURS_EMAIL_TABLE_COLUMN_TEXT"          value="Email"></property>
+        <property name="CSG_OFFICE_HOURS_SLOTS_TABLE_COLUMN_TEXT"          value="Time Slots"></property>
+        <property name="CSG_OFFICE_HOURS_TYPE_TABLE_COLUMN_TEXT"          value="Type"></property>
+        <property name="CSG_OFFICE_HOURS_START_TIME_TABLE_COLUMN_TEXT"          value="Start Time"></property>
+        <property name="CSG_OFFICE_HOURS_END_TIME_TABLE_COLUMN_TEXT"          value="End Time"></property>
+        <property name="CSG_OFFICE_HOURS_MONDAY_TABLE_COLUMN_TEXT"          value="Monday"></property>
+        <property name="CSG_OFFICE_HOURS_TUESDAY_TABLE_COLUMN_TEXT"          value="Tuesday"></property>
+        <property name="CSG_OFFICE_HOURS_WEDNESDAY_TABLE_COLUMN_TEXT"          value="Wednesday"></property>
+        <property name="CSG_OFFICE_HOURS_THURSDAY_TABLE_COLUMN_TEXT"          value="Thursday"></property>
+        <property name="CSG_OFFICE_HOURS_FRIDAY_TABLE_COLUMN_TEXT"          value="Friday"></property>
+        
+        <property name="CSG_SCHEDULE_SCHEDULE_TYPE_TABLE_COLUMN_TEXT"          value="Type"></property>
+        <property name="CSG_SCHEDULE_SCHEDULE_DATE_TABLE_COLUMN_TEXT"          value="Date"></property>
+        <property name="CSG_SCHEDULE_SCHEDULE_TITLE_TABLE_COLUMN_TEXT"          value="Title"></property>
+        <property name="CSG_SCHEDULE_SCHEDULE_TOPIC_TABLE_COLUMN_TEXT"          value="Topic"></property>
+        
+        
+        <property name="CSG_SITE_SEMESTER_DEFAULT_OPTION"          value="Fall"></property>
+        <property name="CSG_SITE_STYLE_SHEET_DEFAULT_OPTION"          value="sea_wolf.css"></property>
+        <property name="CSG_OFFICE_HOURS_START_TIME_DEFAULT_OPTION"          value="9:00am"></property>
+        <property name="CSG_OFFICE_HOURS_END_TIME_DEFAULT_OPTION"          value="9:00pm"></property>
+        <property name="CSG_SCHEDULE_CALENDAR_STARTING_MONDAY_DEFAULT_OPTION"          value="8/20/2018"></property>
+        <property name="CSG_SCHEDULE_CALENDAR_ENDTING_FRIDAY_DEFAULT_OPTION"          value="8/20/2018"></property>
+        <property name="CSG_SCHEDULE_TYPE_DEFAULT_OPTION"          value="Options"></property>
+        <property name="CSG_SCHEDULE_DATE_DEFAULT_OPTION"          value="4/22/2018"></property>
+        
+        <property name="CSG_LOAD_SUBJECT_PATH"          value="./app_data/recent/subjectComboBoxItems.txt"></property>
+        <property name="CSG_LOAD_NUMBER_PATH"          value="./app_data/recent/numberComboBoxItems.txt"></property>
+        <property name="CSG_LOAD_SEMESTER_PATH"          value="./app_data/recent/semesterComboBoxItems.txt"></property>
+        <property name="CSG_LOAD_YEAR_PATH"          value="./app_data/recent/yearComboBoxItems.txt"></property>
+        <property name="CSG_LOAD_STYLE_SHEET_FILES_PATH"          value="./app_data/styleSheet"></property>
+        <property name="CSG_SITE_STYLE_FAVICON_DEFAULTE_IMAGE_PATH"          value="./images/favicon.png"></property>
+        <property name="CSG_SITE_STYLE_NAVBAR_DEFAULTE_IMAGE_PATH"          value="./images/navbar.png"></property>
+        <property name="CSG_SITE_STYLE_LEFTE_FOOTER_DEFAULTE_IMAGE_PATH"          value="./images/leftFooter.png"></property>
+        <property name="CSG_SITE_STYLE_RIGHT_FOOTER_DEFAULTE_IMAGE_PATH"          value="./images/rightFooter.png"></property>
+        <property name="CSG_SITE_STYLE_IMAGE_HREF"    value= "http://www.cs.stonybrook.edu"></property>
+        <property name="CSG_SITE_PAGES_HOME_CHECK_BOX_TEXT"          value="Home"></property>
+        <property name="CSG_SITE_PAGES_SYLLABUS_CHECK_BOX_TEXT"          value="Syllabus"></property>
+        <property name="CSG_SITE_PAGES_SCHEDULE_CHECK_BOX_TEXT"          value="Schedule"></property>
+        <property name="CSG_SITE_PAGES_HWS_CHECK_BOX_TEXT"          value="HWs"></property>
+        
+        <property name="CSG_SITE_STYLE_FAVICON_BUTTON_TEXT"          value="Favicon"></property>
+        <property name="CSG_SITE_STYLE_NAVBAR_BUTTON_TEXT"          value="Navbar Image"></property>
+        <property name="CSG_SITE_STYLE_LEFTE_FOOTER_BUTTON_TEXT"          value="Left Footer Image"></property>
+        <property name="CSG_SITE_STYLE_RIGHT_FOOTER_BUTTON_TEXT"          value="Right Footer Image"></property>
+        <property name="CSG_OFFICE_HOURS_ALL_RADIO_BUTTON_TEXT"          value="All"></property>
+        <property name="CSG_OFFICE_HOURS_GRADUATE_RADIO_BUTTON_TEXT"          value="Grad"></property>
+        <property name="CSG_OFFICE_HOURS_UNDERGRADUATE_RADIO_BUTTON_TEXT"          value="Undergrad"></property>
+        <property name="CSG_OFFICE_HOURS_ADD_TA_BUTTON_TEXT"          value="Add TA"></property>
+        <property name="CSG_SCHEDULE_ITEMS_ADD_BUTTON_TEXT"          value="Add"></property>
+        <property name="CSG_SCHEDULE_ITEMS_UPDATE_BUTTON_TEXT"          value="Update"></property>
+        <property name="CSG_SCHEDULE_CLEAR_BUTTON_TEXT"          value="Clear"></property>
+        
+    </property_list>
+    
+    <!-- TDLM COMBO BOX CHOICES -->
+    <property_options_list>
+        <property_options name="LANGUAGE_OPTIONS">
+            <option>English</option>
+            <option>Klingon</option>
+        </property_options>
+
+        <property_options name="CSG_SCHEDULE_TYPE_OPTIONS">
+            <option>Holiday</option>
+            <option>Lecture</option>
+            <option>Reference</option>
+            <option>Recitation</option>
+            <option>HW</option>
+        </property_options>      
+    </property_options_list>
+</properties>

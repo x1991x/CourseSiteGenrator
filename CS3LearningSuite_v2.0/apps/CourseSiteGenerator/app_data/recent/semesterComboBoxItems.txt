@@ -1,0 +1,17 @@
+
+{
+    "semester":[
+        {
+            "item":"Spring"
+        },
+        {
+            "item":"Summer"
+        },
+        {
+            "item":"Fall"
+        },
+        {
+            "item":"Winter"
+        }
+    ]
+}
